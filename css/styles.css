@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #757575;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -163,4 +164,18 @@ ul {
 }
 .current {
   color: var(--accentColor);
+}
+.catalog {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.catalog-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
