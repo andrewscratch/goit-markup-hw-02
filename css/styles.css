@@ -1,12 +1,166 @@
 body {
-  background-color: F5F5F5;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
+.logoone {
+  color: #18a0fb;
+  font-size: 26px;
+  font-weight: 700;
+  font: raleway;
+  line-height: 0;
+  letter: 3%;
+}
+
+.logotwo {
+  color: #050505;
+  font-size: 26px;
+  font-weight: 700;
+  font: raleway;
+  line-height: 0;
+  letter: 3%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+
+.props-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.props-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 /* цвет основного текста #000000 */
-
 /* вторичный цвет текста rgba(0, 0, 0.8)
- */
-
-/* белый #FFFFFF */
-
+ */ /* белый #FFFFFF */
 /* акцент #18A0FB */
+ul {
+  list-style: none;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-mbr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.button {
+  color: #2196f3;
+}
+.button:hover,
+.button:focus,
+.button:active {
+  color: #2196f3;
+}
+.current {
+  color: var(--accentColor);
+}
