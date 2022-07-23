@@ -9,7 +9,7 @@ body {
   color: #18a0fb;
   font-size: 26px;
   font-weight: 700;
-  font: raleway;
+  font: "Raleway";
   line-height: 0;
   letter: 3%;
 }
@@ -18,7 +18,7 @@ body {
   color: #050505;
   font-size: 26px;
   font-weight: 700;
-  font: raleway;
+  font: "Raleway";
   line-height: 0;
   letter: 3%;
 }
@@ -69,8 +69,8 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -81,8 +81,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
+  cursor: pointer;
   color: #ffffff;
+  font-family: inherit;
 }
 
 .header-link:hover,
@@ -100,9 +101,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-
   color: #212121;
+  text-transform:uppercase
+  
 }
 
 .props-text {
@@ -110,7 +111,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  text-transform: none;
+  color: #757575
+  
 }
 
 .about {
@@ -134,7 +137,6 @@ ul {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .team-mbr {
@@ -156,6 +158,8 @@ ul {
 }
 .button {
   color: #2196f3;
+  cursor: pointer;
+  font-family: inherit;
 }
 .button:hover,
 .button:focus,
@@ -178,4 +182,19 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+}
+
+.visually-hidden { position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px; }"
+
+:root {
+  --main-text-color: #757575
 }
