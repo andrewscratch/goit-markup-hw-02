@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,174 +11,156 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <title>Портфоліо вебстудії</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logoone link" href="http://127.0.0.1:5500/index.html"
-          >web<span class="logotwo link">studio</span></a
+    <header class="headsite">
+      <nav class="site-nav">
+        <a href="./index.html" lang="en" class="logo"
+          >Web<span class="logo-dark">Studio</span></a
         >
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="http://127.0.0.1:5500/index.html" class="header-link link"
-              >studio</a
-            >
+        <ul class="otherpages-list list">
+          <li>
+            <a href="./index.html" class="otherpages-link link">Студія</a>
           </li>
-          <li class="header-item">
+          <li>
             <a
-              href="http://127.0.0.1:5500/portfolio.html"
-              class="header-link link"
-              >портфолио</a
+              href="./portfolio.html"
+              target="_parent"
+              class="otherpages-link link current"
+              >Портфоліо</a
             >
           </li>
-          <li class="header-item">
-            <a href="" class="header-link link">контакты</a>
-          </li>
+          <li><a href="" class="otherpages-link link">Контакти</a></li>
         </ul>
       </nav>
-      <p>
-      <a href="mailto:info@devstudio.com" class="header-mail link"
-        >info@devstudio.com</a>
-      </p>
-      <p>
-      <a href="tel+380961111111" class="header-tel link">+380961111111</a>
-    </p>
+      <ul class="contacts-list list">
+        <li>
+          <a
+            href="mailto:info@devstudio.com"
+            lang="en"
+            class="contacts-link link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contacts-link link"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
     </header>
     <main>
-      <section class="main">
-        <ul class="button">
-          <li><button type="button" class="button">Все</button></li>
-          <li><button type="button" class="button">Весь сайт</button></li>
-          <li><button type="button" class="button">Додатки</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
+      <section class="examples">
+        <h1 class="examples-title">Приклади робіт</h1>
+        <ul class="filters-list list">
+          <li>
+            <button type="button" class="filters-button button">Все</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button button">
+              Веб-сайти
+            </button>
+          </li>
+          <li>
+            <button type="button" class="filters-button button">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="filters-button button">
+              Маркетинг
+            </button>
+          </li>
         </ul>
-      
-      <ul class="catalog">
-            <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/1.jpg"
-            alt="ноутбук"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Технокряк</h2>
-            <p class="catalog-text">Вебсайт</p>
-        </a>  
-        </li>
-
-            <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/2.jpg"
-            alt="баскет"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Постер New Orlean vs Golden Star</h2>
-            <p class="catalog-text">Дизайн</p>
-        </a>  
-        </li>
-
-         <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/3.jpg"
-            alt="ресторан"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Ресторан Seafood</h2>
-            <p class="catalog-text">Додаток</p>
-        </a>  
-        </li>
-        
-         <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/4.jpg"
-            alt="навушники"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Проєкт Prime</h2>
-            <p class="catalog-text">Маркетинг</p>
-        </a>  
-        </li>
-        
-      <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/5.jpg"
-            alt="коробки"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Проєкт Boxes</h2>
-            <p class="catalog-text">Додаток</p>
-        </a>  
-        </li>
-
-          <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/6.jpg"
-            alt="аймак"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Inspiration has no Borders</h2>
-            <p class="catalog-text">Веб-сайт</p>
-        </a>  
-        </li>
-
-     <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/7.jpg"
-            alt="журнал"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Видання Limited Edition</h2>
-            <p class="catalog-text">Дизайн</p>
-        </a>  
-        </li>
-
-         <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/8.jpg"
-            alt="бірка"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Проєкт Lab</h2>
-            <p class="catalog-text">Маркетинг</p>
-        </a>  
-        </li>
-
-           <li class="catalog-item"
-            <a href="#" 
-            class="catalog-img">
-            <img src="./img/9.jpg"
-            alt="макбук"
-            width="370"
-            height="294"/>
-            <h2 class="catalog-title">Growing Business</h2>
-            <p class="catalog-text">Додаток</p>
-        </a>  
-        </li>
-
+        <ul class="examples-list list">
+          <li>
+            <img src="./img/1.jpg" alt="веб сайт для ресторану" width="370" />
+            <h2 class="examples-subtitle">Технокряк</h2>
+            <p class="examples-ph">Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./img/2.jpg" alt="баскетбол афіша" width="370" />
+            <h2 class="examples-subtitle">
+              Постер <span lang="en">New Orlean vs Golden Star</span>
+            </h2>
+            <p class="examples-ph">Дизайн</p>
+          </li>
+          <li>
+            <img src="./img/3.jpg" alt="додаток для ресторану" width="370" />
+            <h2 class="examples-subtitle">
+              Ресторан <span lang="en">Seafood</span>
+            </h2>
+            <p class="examples-ph">Додаток</p>
+          </li>
+          <li>
+            <img src="./img/4.jpg" alt="навушники" width="370" />
+            <h2 class="examples-subtitle">
+              Проєкт <span lang="en">Prime</span>
+            </h2>
+            <p class="examples-ph">Маркетинг</p>
+          </li>
+          <li>
+            <img src="./img/5.jpg" alt="коробки" width="370" />
+            <h2 class="examples-subtitle">
+              Проєкт <span lang="en">Boxes</span>
+            </h2>
+            <p class="examples-ph">Додаток</p>
+          </li>
+          <li>
+            <img src="./img/6.jpg" alt="аймак вебсайт" width="370" />
+            <h2 class="examples-subtitle" lang="en">
+              Inspiration has no Borders
+            </h2>
+            <p class="examples-ph">Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./img/7.jpg" alt="дизайн журналу" width="370" />
+            <h2 class="examples-subtitle">
+              Видання <span lang="en">Limited Edition</span>
+            </h2>
+            <p class="examples-ph">Дизайн</p>
+          </li>
+          <li>
+            <img src="./img/8.jpg" alt="бірка" width="370" />
+            <h2 class="examples-subtitle">Проєкт <span lang="en">LAB</span></h2>
+            <p class="examples-ph">Маркетинг</p>
+          </li>
+          <li>
+            <img src="./img/9.jpg" alt="додаток лептоп" width="370" />
+            <h2 class="examples-subtitle" lang="en">Growing Business</h2>
+            <p class="examples-ph">Додаток</p>
+          </li>
         </ul>
       </section>
     </main>
-    <footer class="header">
-      <a href="" class="header-logo"></a>
-      <nav class="header-nav">
-        <a class="logoone link" href="http://127.0.0.1:5500/index.html"
-          >web<span class="logotwodown link">studio</span></a>
-      </nav>
-      <ul>
-        <li><a href="м. Київ, пр-т Лесі Українки, 26" class="adress link"
-          >м. Київ, пр-т Лесі Українки, 26</a></li>
-        <li><a href="mailto:info@devstudio.com" class="header-mail link"
-          >info@devstudio.com</a></li>
-        <li><a href="tel+380961111111" class="header-tel link">+380961111111</a></li>
-      </ul>
+    <footer class="footsite">
+      <a href="./index.html" lang="en" class="logo"
+        >Web<span class="logo-light">Studio</span></a
+      >
+      <address>
+        <ul class="address-list list">
+          <li>
+            <a href="м.Київ,пр-тЛесіУкраїнки,26" class="address-link link"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              lang="en"
+              class="mail-and-phone-link link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="mail-and-phone-link link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
