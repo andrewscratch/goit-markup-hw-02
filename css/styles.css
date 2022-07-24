@@ -107,7 +107,6 @@ body {
 .hero-button:focus {
   background-color: #188ce8;
 }
-
 .header-link:hover,
 .header-link:focus {
   color: var(--text-selection-color);
